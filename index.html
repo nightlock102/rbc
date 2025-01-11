@@ -123,7 +123,7 @@
             const reader = new FileReader();
             reader.onload = (event) => {
                 const importedData = event.target.result;
-                localStorage.setItem("RetroBowlCollege.0.savedata.ini", importedData);
+                localStorage.setItem("RetroBowlCollege.1.savedata.ini", importedData);
                 alert('Data imported successfully!');
             };
             reader.readAsText(file);
